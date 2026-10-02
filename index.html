@@ -143,12 +143,14 @@
     .note-card { border:1px solid var(--line); border-radius:12px; padding:14px; background:rgba(18,23,42,.22); color:var(--muted); font-size:12px; line-height:1.65; }
     .note-card strong { display:block; color:var(--ink); font-size:14px; margin-bottom:5px; }
 
-
-    .compact-member-head { padding:16px 22px 12px; }
-    .compact-notes { grid-template-columns: repeat(2, 1fr); padding:14px 22px; }
-    .compact-member-table th, .compact-member-table td { padding:9px 16px; }
-    .compact-member-table table th:nth-child(1), .compact-member-table table td:nth-child(1) { width:72px; }
-    .compact-member-table table th:nth-child(3), .compact-member-table table td:nth-child(3) { width:180px; text-align:right; }
+    .runner-record-grid { display:grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap:10px; padding:16px 22px 22px; }
+    .runner-record-card { display:grid; grid-template-columns:38px minmax(0,1fr) auto; align-items:center; gap:10px; padding:10px 12px; border-radius:12px; background:rgba(18,23,42,.22); border:1px solid var(--line); }
+    .runner-record-rank { width:30px; height:30px; border-radius:9px; display:grid; place-items:center; background:var(--accent); font-weight:950; font-size:12px; }
+    .runner-record-name { min-width:0; font-weight:900; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .runner-record-km { text-align:right; font-weight:950; white-space:nowrap; }
+    .runner-record-km span { margin-left:3px; color:var(--muted); font-size:10px; font-weight:850; }
+    @media (max-width: 1050px) { .runner-record-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 720px) { .runner-record-grid { grid-template-columns:1fr; } }
     @media (max-width: 1050px) { .metric-grid, .layout { grid-template-columns:1fr 1fr; } .layout > *:nth-child(2) { grid-column:1 / -1; order:-1; } .route-wrap { grid-template-columns:1fr; } }
     @media (max-width: 720px) { .shell { padding:18px 14px 36px; } nav { display:none; } .metric-grid, .layout { grid-template-columns:1fr; } .route-copy h2 { font-size:26px; } .route-copy h2 span { font-size:28px; } .bars { gap:8px; } }
   </style>
@@ -174,33 +176,6 @@
           <h1>EMBA 全企 Run</h1>
           <p>從政治大學出發，順時針環台挑戰</p>
           <div class="hero-stats"><div><strong>100</strong><span>筆紀錄</span></div><div><strong>36</strong><span>跑者</span></div><div><strong>5</strong><span>期間</span></div></div>
-        </section>
-        <section class="card card-pad challenge"><div style="display:flex;justify-content:space-between;align-items:center"><h2>Data Periods</h2></div>
-          <article class="mini-period">
-            <span>2026年5月</span>
-            <strong>693.41</strong>
-            <small>30 位跑者 · 平均 23.11 km</small>
-          </article>
-          <article class="mini-period">
-            <span>2026年6月</span>
-            <strong>358.18</strong>
-            <small>22 位跑者 · 平均 16.28 km</small>
-          </article>
-          <article class="mini-period">
-            <span>2026年7月</span>
-            <strong>470.70</strong>
-            <small>18 位跑者 · 平均 26.15 km</small>
-          </article>
-          <article class="mini-period">
-            <span>2026年8月</span>
-            <strong>353.55</strong>
-            <small>14 位跑者 · 平均 25.25 km</small>
-          </article>
-          <article class="mini-period">
-            <span>2026年9月</span>
-            <strong>310.36</strong>
-            <small>16 位跑者 · 平均 19.40 km</small>
-          </article>
         </section>
         <section class="card card-pad carbon-card"><h2>減碳總量</h2><div class="carbon-panel"><div class="carbon-kicker">EMBA 全企 Run</div><div class="carbon-label">減碳量共計</div><div class="carbon-value"><strong>459.10</strong><span>kg CO2e</span></div><div class="carbon-mileage"><small>累計里程</small><strong>2,186 km</strong></div></div></section>
       </aside>
@@ -732,190 +707,195 @@
     </main>
 
     <section class="card member-records" aria-label="每位跑者紀錄">
-      <div class="panel-head compact-member-head"><div><h2 class="panel-title">每位跑者紀錄</h2><p class="footer-note" style="margin:6px 0 0">依累計總公里數排序；7月與8月保留原始可見跑者人數。</p></div><span class="pill">Total KM</span></div>
-      <div class="notes-grid compact-notes"><div class="note-card"><strong>資料校正</strong>每位跑者各自的差異，只分配至該跑者原本已出現在2026年7月或8月的紀錄；不新增跑者列。</div><div class="note-card"><strong>未分配差異</strong>若該跑者7月與8月皆無原始可見紀錄，差異保留於未分配明細，不硬塞入月份。</div></div>
-      <div class="table-scroll compact-member-table"><table><thead><tr><th>#</th><th>姓名</th><th>累計 km</th></tr></thead><tbody>
-              <tr>
-                <td>1</td>
-                <td class="member-name">堂 品客</td>
-                <td>216.20</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td class="member-name">Ethan Lin</td>
-                <td>202.30</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td class="member-name">Ike Chen</td>
-                <td>181.00</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td class="member-name">Mina Chen</td>
-                <td>152.42</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td class="member-name">Angel Liu</td>
-                <td>145.00</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td class="member-name">清揚 鄭</td>
-                <td>137.50</td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td class="member-name">Rick Hu</td>
-                <td>104.05</td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td class="member-name">Brant Chang</td>
-                <td>103.28</td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td class="member-name">Raymond Chang</td>
-                <td>98.31</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td class="member-name">志中 王</td>
-                <td>92.05</td>
-              </tr>
-              <tr>
-                <td>11</td>
-                <td class="member-name">Enos Chen</td>
-                <td>89.02</td>
-              </tr>
-              <tr>
-                <td>12</td>
-                <td class="member-name">Chen Hong-Chou</td>
-                <td>73.26</td>
-              </tr>
-              <tr>
-                <td>13</td>
-                <td class="member-name">王 老</td>
-                <td>65.08</td>
-              </tr>
-              <tr>
-                <td>14</td>
-                <td class="member-name">秀婷 莊</td>
-                <td>61.36</td>
-              </tr>
-              <tr>
-                <td>15</td>
-                <td class="member-name">Luke Huang</td>
-                <td>57.18</td>
-              </tr>
-              <tr>
-                <td>16</td>
-                <td class="member-name">Billy Chou</td>
-                <td>56.96</td>
-              </tr>
-              <tr>
-                <td>17</td>
-                <td class="member-name">Keven Cheng</td>
-                <td>56.72</td>
-              </tr>
-              <tr>
-                <td>18</td>
-                <td class="member-name">Jay Liu</td>
-                <td>49.99</td>
-              </tr>
-              <tr>
-                <td>19</td>
-                <td class="member-name">Ted Hung</td>
-                <td>45.93</td>
-              </tr>
-              <tr>
-                <td>20</td>
-                <td class="member-name">Maggie Chen</td>
-                <td>36.71</td>
-              </tr>
-              <tr>
-                <td>21</td>
-                <td class="member-name">琦棋 張</td>
-                <td>35.73</td>
-              </tr>
-              <tr>
-                <td>22</td>
-                <td class="member-name">Grace Chen</td>
-                <td>34.39</td>
-              </tr>
-              <tr>
-                <td>23</td>
-                <td class="member-name">千翊 蔡</td>
-                <td>25.21</td>
-              </tr>
-              <tr>
-                <td>24</td>
-                <td class="member-name">Yi-Fu Shao</td>
-                <td>21.46</td>
-              </tr>
-              <tr>
-                <td>25</td>
-                <td class="member-name">Cecilia Siao</td>
-                <td>9.93</td>
-              </tr>
-              <tr>
-                <td>26</td>
-                <td class="member-name">翊心 曾</td>
-                <td>8.52</td>
-              </tr>
-              <tr>
-                <td>27</td>
-                <td class="member-name">Chunju Shen</td>
-                <td>6.04</td>
-              </tr>
-              <tr>
-                <td>28</td>
-                <td class="member-name">Tommy Chang</td>
-                <td>5.49</td>
-              </tr>
-              <tr>
-                <td>29</td>
-                <td class="member-name">Weng Po Chun</td>
-                <td>5.11</td>
-              </tr>
-              <tr>
-                <td>30</td>
-                <td class="member-name">Jason Ho</td>
-                <td>3.33</td>
-              </tr>
-              <tr>
-                <td>31</td>
-                <td class="member-name">怡君 劉</td>
-                <td>2.17</td>
-              </tr>
-              <tr>
-                <td>32</td>
-                <td class="member-name">Elies Chen</td>
-                <td>1.36</td>
-              </tr>
-              <tr>
-                <td>33</td>
-                <td class="member-name">怡靜 徐</td>
-                <td>1.23</td>
-              </tr>
-              <tr>
-                <td>34</td>
-                <td class="member-name">Dean Lin</td>
-                <td>0.98</td>
-              </tr>
-              <tr>
-                <td>35</td>
-                <td class="member-name">Emily Lin</td>
-                <td>0.51</td>
-              </tr>
-              <tr>
-                <td>36</td>
-                <td class="member-name">嘉峰 李</td>
-                <td>0.42</td>
-              </tr>
-          </tbody></table></div>
+      <div class="panel-head compact-member-head">
+        <div>
+          <h2 class="panel-title">每位跑者紀錄</h2>
+          <p class="footer-note" style="margin:6px 0 0">依累計總公里數排序。</p>
+        </div>
+        <span class="pill">Total KM</span>
+      </div>
+      <div class="runner-record-grid">
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#1</div>
+          <div class="runner-record-name">堂 品客</div>
+          <div class="runner-record-km">216.20<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#2</div>
+          <div class="runner-record-name">Ethan Lin</div>
+          <div class="runner-record-km">202.30<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#3</div>
+          <div class="runner-record-name">Ike Chen</div>
+          <div class="runner-record-km">181.00<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#4</div>
+          <div class="runner-record-name">Mina Chen</div>
+          <div class="runner-record-km">152.42<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#5</div>
+          <div class="runner-record-name">Angel Liu</div>
+          <div class="runner-record-km">145.00<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#6</div>
+          <div class="runner-record-name">清揚 鄭</div>
+          <div class="runner-record-km">137.50<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#7</div>
+          <div class="runner-record-name">Rick Hu</div>
+          <div class="runner-record-km">104.05<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#8</div>
+          <div class="runner-record-name">Brant Chang</div>
+          <div class="runner-record-km">103.28<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#9</div>
+          <div class="runner-record-name">Raymond Chang</div>
+          <div class="runner-record-km">98.31<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#10</div>
+          <div class="runner-record-name">志中 王</div>
+          <div class="runner-record-km">92.05<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#11</div>
+          <div class="runner-record-name">Enos Chen</div>
+          <div class="runner-record-km">89.02<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#12</div>
+          <div class="runner-record-name">Chen Hong-Chou</div>
+          <div class="runner-record-km">73.26<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#13</div>
+          <div class="runner-record-name">王 老</div>
+          <div class="runner-record-km">65.08<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#14</div>
+          <div class="runner-record-name">秀婷 莊</div>
+          <div class="runner-record-km">61.36<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#15</div>
+          <div class="runner-record-name">Luke Huang</div>
+          <div class="runner-record-km">57.18<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#16</div>
+          <div class="runner-record-name">Billy Chou</div>
+          <div class="runner-record-km">56.96<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#17</div>
+          <div class="runner-record-name">Keven Cheng</div>
+          <div class="runner-record-km">56.72<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#18</div>
+          <div class="runner-record-name">Jay Liu</div>
+          <div class="runner-record-km">49.99<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#19</div>
+          <div class="runner-record-name">Ted Hung</div>
+          <div class="runner-record-km">45.93<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#20</div>
+          <div class="runner-record-name">Maggie Chen</div>
+          <div class="runner-record-km">36.71<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#21</div>
+          <div class="runner-record-name">琦棋 張</div>
+          <div class="runner-record-km">35.73<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#22</div>
+          <div class="runner-record-name">Grace Chen</div>
+          <div class="runner-record-km">34.39<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#23</div>
+          <div class="runner-record-name">千翊 蔡</div>
+          <div class="runner-record-km">25.21<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#24</div>
+          <div class="runner-record-name">Yi-Fu Shao</div>
+          <div class="runner-record-km">21.46<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#25</div>
+          <div class="runner-record-name">Cecilia Siao</div>
+          <div class="runner-record-km">9.93<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#26</div>
+          <div class="runner-record-name">翊心 曾</div>
+          <div class="runner-record-km">8.52<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#27</div>
+          <div class="runner-record-name">Chunju Shen</div>
+          <div class="runner-record-km">6.04<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#28</div>
+          <div class="runner-record-name">Tommy Chang</div>
+          <div class="runner-record-km">5.49<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#29</div>
+          <div class="runner-record-name">Weng Po Chun</div>
+          <div class="runner-record-km">5.11<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#30</div>
+          <div class="runner-record-name">Jason Ho</div>
+          <div class="runner-record-km">3.33<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#31</div>
+          <div class="runner-record-name">怡君 劉</div>
+          <div class="runner-record-km">2.17<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#32</div>
+          <div class="runner-record-name">Elies Chen</div>
+          <div class="runner-record-km">1.36<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#33</div>
+          <div class="runner-record-name">怡靜 徐</div>
+          <div class="runner-record-km">1.23<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#34</div>
+          <div class="runner-record-name">Dean Lin</div>
+          <div class="runner-record-km">0.98<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#35</div>
+          <div class="runner-record-name">Emily Lin</div>
+          <div class="runner-record-km">0.51<span>km</span></div>
+        </article>
+        <article class="runner-record-card">
+          <div class="runner-record-rank">#36</div>
+          <div class="runner-record-name">嘉峰 李</div>
+          <div class="runner-record-km">0.42<span>km</span></div>
+        </article>
+      </div>
     </section>
 
   </div>
