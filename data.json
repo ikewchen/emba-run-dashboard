@@ -7,11 +7,11 @@
     "loop_km_assumption": 939.0
   },
   "metrics": {
-    "total_km": 2471.98,
-    "laps": 2.63,
-    "progress_percent_current_lap": 63.3,
-    "remaining_km_current_lap": 345.02,
-    "runner_entries": 140,
+    "total_km": 2186.2,
+    "laps": 2.33,
+    "progress_percent_current_lap": 32.8,
+    "remaining_km_current_lap": 630.8,
+    "runner_entries": 100,
     "unique_runners": 36
   },
   "period_summary": [
@@ -40,20 +40,20 @@
       "display_period": "2026年7月",
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
-      "runner_count": 36,
-      "total_distance_km": 569.33,
-      "avg_distance_km": 15.814722222222223,
-      "max_distance_km": 66.86
+      "runner_count": 18,
+      "total_distance_km": 470.7,
+      "avg_distance_km": 26.15,
+      "max_distance_km": 105.06
     },
     {
       "period_key": "2026-08",
       "display_period": "2026年8月",
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
-      "runner_count": 36,
-      "total_distance_km": 540.7,
-      "avg_distance_km": 15.019444444444446,
-      "max_distance_km": 66.86
+      "runner_count": 14,
+      "total_distance_km": 353.55,
+      "avg_distance_km": 25.25357142857143,
+      "max_distance_km": 54.24
     },
     {
       "period_key": "2026-09",
@@ -69,32 +69,17 @@
   "member_summary": [
     {
       "name": "堂 品客",
-      "periods_count": 5,
+      "periods_count": 4,
       "total_distance_km": 216.2,
-      "best_period_distance_km": 68.87,
-      "best_rank": 2,
-      "avatar": "assets/Tang_PinKe.png"
-    },
-    {
-      "name": "Brant Chang",
-      "periods_count": 5,
-      "total_distance_km": 215.1,
-      "best_period_distance_km": 55.91,
+      "best_period_distance_km": 105.06,
       "best_rank": 1,
-      "avatar": "assets/Brant_Chang.png"
+      "avatar": "assets/Tang_PinKe.png"
     },
     {
       "name": "Ethan Lin",
       "periods_count": 4,
       "total_distance_km": 202.3,
       "best_period_distance_km": 61.34,
-      "best_rank": 2
-    },
-    {
-      "name": "Jay Liu",
-      "periods_count": 5,
-      "total_distance_km": 183.71,
-      "best_period_distance_km": 66.86,
       "best_rank": 1
     },
     {
@@ -102,13 +87,13 @@
       "periods_count": 5,
       "total_distance_km": 181.0,
       "best_period_distance_km": 41.12,
-      "best_rank": 5,
+      "best_rank": 4,
       "avatar": "assets/Ike_Chen.png"
     },
     {
       "name": "Mina Chen",
-      "periods_count": 4,
-      "total_distance_km": 159.6,
+      "periods_count": 2,
+      "total_distance_km": 152.42,
       "best_period_distance_km": 141.6,
       "best_rank": 1,
       "avatar": "assets/Mina_Chen.png"
@@ -116,31 +101,39 @@
     {
       "name": "Angel Liu",
       "periods_count": 4,
-      "total_distance_km": 144.99,
+      "total_distance_km": 145.0,
       "best_period_distance_km": 48.2,
       "best_rank": 2
     },
     {
       "name": "清揚 鄭",
       "periods_count": 5,
-      "total_distance_km": 137.49,
-      "best_period_distance_km": 36.93,
+      "total_distance_km": 137.5,
+      "best_period_distance_km": 36.94,
       "best_rank": 5
     },
     {
       "name": "Rick Hu",
-      "periods_count": 5,
+      "periods_count": 3,
       "total_distance_km": 104.05,
       "best_period_distance_km": 88.52,
       "best_rank": 2,
       "avatar": "assets/Rick_Hu.png"
     },
     {
+      "name": "Brant Chang",
+      "periods_count": 3,
+      "total_distance_km": 103.28,
+      "best_period_distance_km": 51.47,
+      "best_rank": 1,
+      "avatar": "assets/Brant_Chang.png"
+    },
+    {
       "name": "Raymond Chang",
-      "periods_count": 4,
+      "periods_count": 3,
       "total_distance_km": 98.31,
-      "best_period_distance_km": 37.11,
-      "best_rank": 6,
+      "best_period_distance_km": 43.28,
+      "best_rank": 2,
       "avatar": "assets/Raymond_Chang.png"
     },
     {
@@ -152,51 +145,43 @@
     },
     {
       "name": "Enos Chen",
-      "periods_count": 5,
-      "total_distance_km": 89.03,
-      "best_period_distance_km": 31.11,
-      "best_rank": 7,
+      "periods_count": 4,
+      "total_distance_km": 89.02,
+      "best_period_distance_km": 42.21,
+      "best_rank": 3,
       "avatar": "assets/Enos_Chen.png"
     },
     {
       "name": "Chen Hong-Chou",
-      "periods_count": 3,
-      "total_distance_km": 73.25,
-      "best_period_distance_km": 34.96,
-      "best_rank": 7
-    },
-    {
-      "name": "Grace Chen",
-      "periods_count": 5,
-      "total_distance_km": 65.47,
-      "best_period_distance_km": 18.64,
-      "best_rank": 13,
-      "avatar": "assets/Grace_Chen.png"
+      "periods_count": 2,
+      "total_distance_km": 73.26,
+      "best_period_distance_km": 49.93,
+      "best_rank": 3
     },
     {
       "name": "王 老",
       "periods_count": 5,
       "total_distance_km": 65.08,
       "best_period_distance_km": 22.23,
-      "best_rank": 11
+      "best_rank": 9
     },
     {
       "name": "秀婷 莊",
-      "periods_count": 4,
+      "periods_count": 3,
       "total_distance_km": 61.36,
-      "best_period_distance_km": 27.83,
-      "best_rank": 10
+      "best_period_distance_km": 35.66,
+      "best_rank": 6
     },
     {
       "name": "Luke Huang",
       "periods_count": 2,
       "total_distance_km": 57.18,
       "best_period_distance_km": 28.59,
-      "best_rank": 9
+      "best_rank": 7
     },
     {
       "name": "Billy Chou",
-      "periods_count": 3,
+      "periods_count": 1,
       "total_distance_km": 56.96,
       "best_period_distance_km": 56.96,
       "best_rank": 4,
@@ -210,123 +195,138 @@
       "best_rank": 9
     },
     {
+      "name": "Jay Liu",
+      "periods_count": 3,
+      "total_distance_km": 49.99,
+      "best_period_distance_km": 23.19,
+      "best_rank": 10
+    },
+    {
       "name": "Ted Hung",
       "periods_count": 4,
       "total_distance_km": 45.93,
       "best_period_distance_km": 20.6,
-      "best_rank": 12
+      "best_rank": 10
     },
     {
       "name": "Maggie Chen",
       "periods_count": 4,
       "total_distance_km": 36.71,
       "best_period_distance_km": 15.08,
-      "best_rank": 14
+      "best_rank": 12
     },
     {
       "name": "琦棋 張",
-      "periods_count": 5,
-      "total_distance_km": 35.74,
+      "periods_count": 4,
+      "total_distance_km": 35.73,
       "best_period_distance_km": 21.43,
       "best_rank": 11
+    },
+    {
+      "name": "Grace Chen",
+      "periods_count": 3,
+      "total_distance_km": 34.39,
+      "best_period_distance_km": 18.64,
+      "best_rank": 13,
+      "avatar": "assets/Grace_Chen.png"
     },
     {
       "name": "千翊 蔡",
       "periods_count": 4,
       "total_distance_km": 25.21,
       "best_period_distance_km": 12.85,
-      "best_rank": 16
+      "best_rank": 11
     },
     {
       "name": "Yi-Fu Shao",
-      "periods_count": 5,
-      "total_distance_km": 22.92,
+      "periods_count": 3,
+      "total_distance_km": 21.46,
       "best_period_distance_km": 8.34,
       "best_rank": 14
     },
     {
       "name": "Cecilia Siao",
-      "periods_count": 3,
+      "periods_count": 2,
       "total_distance_km": 9.93,
-      "best_period_distance_km": 4.3,
-      "best_rank": 21
+      "best_period_distance_km": 5.99,
+      "best_rank": 14
     },
     {
       "name": "翊心 曾",
-      "periods_count": 4,
+      "periods_count": 2,
       "total_distance_km": 8.52,
       "best_period_distance_km": 4.32,
       "best_rank": 19
     },
     {
       "name": "Chunju Shen",
-      "periods_count": 3,
+      "periods_count": 1,
       "total_distance_km": 6.04,
       "best_period_distance_km": 6.04,
       "best_rank": 21
     },
     {
       "name": "Tommy Chang",
-      "periods_count": 2,
+      "periods_count": 1,
       "total_distance_km": 5.49,
       "best_period_distance_km": 5.49,
-      "best_rank": 19
+      "best_rank": 15
     },
     {
       "name": "Weng Po Chun",
-      "periods_count": 3,
+      "periods_count": 1,
       "total_distance_km": 5.11,
       "best_period_distance_km": 5.11,
       "best_rank": 22
     },
     {
       "name": "Jason Ho",
-      "periods_count": 4,
-      "total_distance_km": 3.35,
+      "periods_count": 2,
+      "total_distance_km": 3.33,
       "best_period_distance_km": 3.04,
       "best_rank": 22
     },
     {
       "name": "怡君 劉",
-      "periods_count": 3,
-      "total_distance_km": 2.35,
+      "periods_count": 1,
+      "total_distance_km": 2.17,
       "best_period_distance_km": 2.17,
-      "best_rank": 25
+      "best_rank": 27
     },
     {
       "name": "Elies Chen",
-      "periods_count": 2,
-      "total_distance_km": 1.37,
+      "periods_count": 1,
+      "total_distance_km": 1.36,
       "best_period_distance_km": 1.36,
-      "best_rank": 22
+      "best_rank": 14
     },
     {
       "name": "怡靜 徐",
-      "periods_count": 3,
+      "periods_count": 1,
       "total_distance_km": 1.23,
       "best_period_distance_km": 1.23,
       "best_rank": 28
     },
     {
       "name": "Dean Lin",
-      "periods_count": 2,
+      "periods_count": 1,
       "total_distance_km": 0.98,
       "best_period_distance_km": 0.98,
-      "best_rank": 24
+      "best_rank": 18
     },
     {
       "name": "Emily Lin",
-      "periods_count": 3,
-      "total_distance_km": 0.75,
+      "periods_count": 1,
+      "total_distance_km": 0.51,
       "best_period_distance_km": 0.51,
-      "best_rank": 24
+      "best_rank": 29
     },
     {
       "name": "嘉峰 李",
-      "periods_count": 3,
-      "total_distance_km": 0.5,
+      "periods_count": 1,
+      "total_distance_km": 0.42,
       "best_period_distance_km": 0.42,
-      "best_rank": 26
+      "best_rank": 30
     }
   ],
   "records": [
@@ -1013,11 +1013,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 1,
-      "name": "Jay Liu",
-      "distance_km": 66.86,
+      "name": "堂 品客",
+      "distance_km": 105.06,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1026,11 +1026,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 2,
-      "name": "堂 品客",
-      "distance_km": 62.53,
+      "name": "Ethan Lin",
+      "distance_km": 54.24,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1039,11 +1039,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 3,
-      "name": "Brant Chang",
-      "distance_km": 55.91,
+      "name": "Chen Hong-Chou",
+      "distance_km": 49.93,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1052,11 +1052,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 4,
-      "name": "Ethan Lin",
-      "distance_km": 54.24,
+      "name": "Ike Chen",
+      "distance_km": 41.12,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1065,11 +1065,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 5,
-      "name": "Ike Chen",
-      "distance_km": 41.12,
+      "name": "清揚 鄭",
+      "distance_km": 36.93,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1078,11 +1078,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 6,
-      "name": "清揚 鄭",
-      "distance_km": 36.93,
+      "name": "秀婷 莊",
+      "distance_km": 35.66,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1091,11 +1091,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 7,
-      "name": "Chen Hong-Chou",
-      "distance_km": 34.96,
+      "name": "Angel Liu",
+      "distance_km": 31.71,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1104,11 +1104,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 8,
-      "name": "Angel Liu",
-      "distance_km": 31.71,
+      "name": "Luke Huang",
+      "distance_km": 28.59,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1117,11 +1117,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 9,
-      "name": "Luke Huang",
-      "distance_km": 28.59,
+      "name": "王 老",
+      "distance_km": 22.23,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1130,11 +1130,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 10,
-      "name": "秀婷 莊",
-      "distance_km": 27.83,
+      "name": "Ted Hung",
+      "distance_km": 20.6,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1143,11 +1143,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 11,
-      "name": "王 老",
-      "distance_km": 22.23,
+      "name": "千翊 蔡",
+      "distance_km": 8.76,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1156,11 +1156,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 12,
-      "name": "Ted Hung",
-      "distance_km": 20.6,
+      "name": "琦棋 張",
+      "distance_km": 8.6,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1169,11 +1169,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 13,
-      "name": "Grace Chen",
-      "distance_km": 15.54,
+      "name": "Maggie Chen",
+      "distance_km": 6.82,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1182,11 +1182,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 14,
-      "name": "Raymond Chang",
-      "distance_km": 11.64,
+      "name": "Cecilia Siao",
+      "distance_km": 5.99,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1195,11 +1195,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 15,
-      "name": "Enos Chen",
-      "distance_km": 11.11,
+      "name": "Tommy Chang",
+      "distance_km": 5.49,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "image_ocr_manual_extraction"
     },
     {
       "period_key": "2026-07",
@@ -1208,11 +1208,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 16,
-      "name": "千翊 蔡",
-      "distance_km": 8.76,
+      "name": "Keven Cheng",
+      "distance_km": 4.76,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1221,11 +1221,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 17,
-      "name": "琦棋 張",
-      "distance_km": 8.6,
+      "name": "志中 王",
+      "distance_km": 3.23,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-07",
@@ -1234,245 +1234,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-07-31",
       "rank": 18,
-      "name": "Maggie Chen",
-      "distance_km": 6.82,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 19,
-      "name": "Tommy Chang",
-      "distance_km": 5.49,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 20,
-      "name": "Keven Cheng",
-      "distance_km": 4.76,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 21,
-      "name": "Cecilia Siao",
-      "distance_km": 4.3,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 22,
-      "name": "Mina Chen",
-      "distance_km": 3.59,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 23,
-      "name": "志中 王",
-      "distance_km": 3.23,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 24,
       "name": "Dean Lin",
       "distance_km": 0.98,
       "unit": "km",
       "source_db": "emba_run_2026_07.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 25,
-      "name": "Yi-Fu Shao",
-      "distance_km": 0.73,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 26,
-      "name": "Emily Lin",
-      "distance_km": 0.12,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 27,
-      "name": "怡君 劉",
-      "distance_km": 0.09,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 28,
-      "name": "嘉峰 李",
-      "distance_km": 0.04,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 29,
-      "name": "Elies Chen",
-      "distance_km": 0.01,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 30,
-      "name": "Jason Ho",
-      "distance_km": 0.01,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 31,
-      "name": "Billy Chou",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 32,
-      "name": "Chunju Shen",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 33,
-      "name": "Rick Hu",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 34,
-      "name": "Weng Po Chun",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 35,
-      "name": "怡靜 徐",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-07",
-      "year_month": "2026-07",
-      "display_period": "2026年7月",
-      "period_type": "monthly",
-      "as_of_date": "2026-07-31",
-      "rank": 36,
-      "name": "翊心 曾",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_07.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "image_ocr_manual_extraction"
     },
     {
       "period_key": "2026-08",
@@ -1481,11 +1247,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 1,
-      "name": "Jay Liu",
-      "distance_km": 66.86,
+      "name": "Ethan Lin",
+      "distance_km": 54.24,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1494,11 +1260,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 2,
-      "name": "Brant Chang",
-      "distance_km": 55.91,
+      "name": "Raymond Chang",
+      "distance_km": 43.28,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1507,11 +1273,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 3,
-      "name": "Ethan Lin",
-      "distance_km": 54.24,
+      "name": "Enos Chen",
+      "distance_km": 42.21,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1520,11 +1286,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 4,
-      "name": "堂 品客",
-      "distance_km": 42.53,
+      "name": "Ike Chen",
+      "distance_km": 41.12,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1533,11 +1299,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 5,
-      "name": "Ike Chen",
-      "distance_km": 41.12,
+      "name": "清揚 鄭",
+      "distance_km": 36.94,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1546,11 +1312,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 6,
-      "name": "清揚 鄭",
-      "distance_km": 36.93,
+      "name": "Angel Liu",
+      "distance_km": 31.72,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1559,11 +1325,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 7,
-      "name": "Angel Liu",
-      "distance_km": 31.71,
+      "name": "Luke Huang",
+      "distance_km": 28.59,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1572,11 +1338,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 8,
-      "name": "Raymond Chang",
-      "distance_km": 31.64,
+      "name": "志中 王",
+      "distance_km": 22.77,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "check_only_20km;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1585,11 +1351,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 9,
-      "name": "Enos Chen",
-      "distance_km": 31.11,
+      "name": "Keven Cheng",
+      "distance_km": 17.0,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1598,11 +1364,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 10,
-      "name": "Luke Huang",
-      "distance_km": 28.59,
+      "name": "王 老",
+      "distance_km": 13.97,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1611,11 +1377,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 11,
-      "name": "志中 王",
-      "distance_km": 22.77,
+      "name": "千翊 蔡",
+      "distance_km": 12.85,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "check_only_20km;cumulative_difference_split_2026_10_02"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1624,11 +1390,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 12,
-      "name": "Keven Cheng",
-      "distance_km": 17.0,
+      "name": "Maggie Chen",
+      "distance_km": 4.55,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1637,11 +1403,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 13,
-      "name": "Grace Chen",
-      "distance_km": 15.54,
+      "name": "Ted Hung",
+      "distance_km": 2.95,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-08",
@@ -1650,297 +1416,11 @@
       "period_type": "monthly",
       "as_of_date": "2026-08-31",
       "rank": 14,
-      "name": "Chen Hong-Chou",
-      "distance_km": 14.96,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 15,
-      "name": "王 老",
-      "distance_km": 13.97,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 16,
-      "name": "千翊 蔡",
-      "distance_km": 12.85,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 17,
-      "name": "秀婷 莊",
-      "distance_km": 7.83,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 18,
-      "name": "Maggie Chen",
-      "distance_km": 4.55,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 19,
-      "name": "Mina Chen",
-      "distance_km": 3.59,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 20,
-      "name": "Ted Hung",
-      "distance_km": 2.95,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 21,
-      "name": "Cecilia Siao",
-      "distance_km": 1.69,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 22,
       "name": "Elies Chen",
       "distance_km": 1.36,
       "unit": "km",
       "source_db": "emba_run_2026_08.sqlite",
-      "source": "image_ocr_manual_extraction;cumulative_difference_split_2026_10_02"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 23,
-      "name": "Yi-Fu Shao",
-      "distance_km": 0.73,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 24,
-      "name": "Emily Lin",
-      "distance_km": 0.12,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 25,
-      "name": "怡君 劉",
-      "distance_km": 0.09,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 26,
-      "name": "嘉峰 李",
-      "distance_km": 0.04,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 27,
-      "name": "Jason Ho",
-      "distance_km": 0.01,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 28,
-      "name": "琦棋 張",
-      "distance_km": 0.01,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 29,
-      "name": "Billy Chou",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 30,
-      "name": "Chunju Shen",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 31,
-      "name": "Dean Lin",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 32,
-      "name": "Rick Hu",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 33,
-      "name": "Tommy Chang",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 34,
-      "name": "Weng Po Chun",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 35,
-      "name": "怡靜 徐",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
-    },
-    {
-      "period_key": "2026-08",
-      "year_month": "2026-08",
-      "display_period": "2026年8月",
-      "period_type": "monthly",
-      "as_of_date": "2026-08-31",
-      "rank": 36,
-      "name": "翊心 曾",
-      "distance_km": 0.0,
-      "unit": "km",
-      "source_db": "emba_run_2026_08.sqlite",
-      "source": "cumulative_difference_split_2026_10_02_inserted"
+      "source": "image_ocr_manual_extraction;personal_difference_allocated_existing_runner_only_2026_10_02"
     },
     {
       "period_key": "2026-09",
@@ -2152,7 +1632,8 @@
     }
   ],
   "metadata": {
-    "adjustment": "2026-10-02 cumulative total differences split evenly into July and August",
-    "allocation_file": "C:\\Users\\ikewc\\OneDrive\\Desktop\\EMBA Run\\資料集\\emba_run_difference_split_allocation_2026_10_02.csv"
+    "adjustment": "existing-runner-only personal differences allocated to July/August; no new July/August runners inserted",
+    "allocation_file": "C:\\Users\\ikewc\\OneDrive\\Desktop\\EMBA Run\\資料集\\emba_run_difference_existing_runner_allocation_2026_10_02.csv",
+    "unallocated_file": "C:\\Users\\ikewc\\OneDrive\\Desktop\\EMBA Run\\資料集\\emba_run_unallocated_difference_2026_10_02.csv"
   }
 }
