@@ -143,6 +143,12 @@
     .note-card { border:1px solid var(--line); border-radius:12px; padding:14px; background:rgba(18,23,42,.22); color:var(--muted); font-size:12px; line-height:1.65; }
     .note-card strong { display:block; color:var(--ink); font-size:14px; margin-bottom:5px; }
 
+
+    .compact-member-head { padding:16px 22px 12px; }
+    .compact-notes { grid-template-columns: repeat(2, 1fr); padding:14px 22px; }
+    .compact-member-table th, .compact-member-table td { padding:9px 16px; }
+    .compact-member-table table th:nth-child(1), .compact-member-table table td:nth-child(1) { width:72px; }
+    .compact-member-table table th:nth-child(3), .compact-member-table table td:nth-child(3) { width:180px; text-align:right; }
     @media (max-width: 1050px) { .metric-grid, .layout { grid-template-columns:1fr 1fr; } .layout > *:nth-child(2) { grid-column:1 / -1; order:-1; } .route-wrap { grid-template-columns:1fr; } }
     @media (max-width: 720px) { .shell { padding:18px 14px 36px; } nav { display:none; } .metric-grid, .layout { grid-template-columns:1fr; } .route-copy h2 { font-size:26px; } .route-copy h2 span { font-size:28px; } .bars { gap:8px; } }
   </style>
@@ -757,313 +763,168 @@
       </aside>
     </main>
 
-    <section class="card member-records" aria-label="每位跑者紀錄與進步率">
-      <div class="panel-head">
+    <section class="card member-records" aria-label="每位跑者紀錄">
+      <div class="panel-head compact-member-head">
         <div>
-          <h2 class="panel-title">每位跑者紀錄與進步率</h2>
-          <p class="footer-note" style="margin:6px 0 0">進步率以 2026年9月 正式月結里程與 2026年8月 完整月份比較。</p>
+          <h2 class="panel-title">每位跑者紀錄</h2>
+          <p class="footer-note" style="margin:6px 0 0">依累計總公里數排序；已依朋友總里程截圖校正。</p>
         </div>
-        <span class="pill">Member Analytics</span>
+        <span class="pill">Total KM</span>
       </div>
-      <div class="notes-grid">
-        <div class="note-card"><strong>累計里程</strong>已依朋友總里程截圖校正；截圖可見排名 3–38。</div>
-        <div class="note-card"><strong>差異分配</strong>每位跑者「總里程截圖 - 資料庫累計」差異，平均分配至 2026年7月與2026年8月。</div>
-        <div class="note-card"><strong>未截排名</strong>排名第1、2名未出現在提供截圖，本次未臆測補入；截圖註記7位朋友尚無公里數。</div>
+      <div class="notes-grid compact-notes">
+        <div class="note-card"><strong>資料校正</strong>每位跑者各自的差異，分別平均分配至該跑者的2026年7月與8月；不跨人平均。</div>
+        <div class="note-card"><strong>截圖範圍</strong>可見排名3–38；第1、2名未出現在提供截圖，未臆測補入。</div>
       </div>
-      <div class="table-scroll">
+      <div class="table-scroll compact-member-table">
         <table>
           <thead>
-            <tr><th>#</th><th>姓名</th><th>累計 km</th><th>2026年8月</th><th>2026年9月</th><th>進步率</th><th>名次變化</th></tr>
+            <tr><th>#</th><th>姓名</th><th>累計 km</th></tr>
           </thead>
           <tbody>
               <tr>
                 <td>1</td>
                 <td class="member-name">堂 品客</td>
                 <td>216.20</td>
-                <td>42.53</td>
-                <td>22.66</td>
-                <td><span class="delta down">-46.7%</span></td>
-                <td><span class="delta down">-3</span></td>
               </tr>              <tr>
                 <td>2</td>
                 <td class="member-name">Brant Chang</td>
                 <td>215.10</td>
-                <td>55.91</td>
-                <td>43.88</td>
-                <td><span class="delta down">-21.5%</span></td>
-                <td><span class="delta down">-1</span></td>
               </tr>              <tr>
                 <td>3</td>
                 <td class="member-name">Ethan Lin</td>
                 <td>202.30</td>
-                <td>54.24</td>
-                <td>61.34</td>
-                <td><span class="delta up">+13.1%</span></td>
-                <td><span class="delta up">+1</span></td>
               </tr>              <tr>
                 <td>4</td>
                 <td class="member-name">Jay Liu</td>
                 <td>183.71</td>
-                <td>66.86</td>
-                <td>14.97</td>
-                <td><span class="delta down">-77.6%</span></td>
-                <td><span class="delta down">-10</span></td>
               </tr>              <tr>
                 <td>5</td>
                 <td class="member-name">Ike Chen</td>
                 <td>181.00</td>
-                <td>41.12</td>
-                <td>35.59</td>
-                <td><span class="delta down">-13.4%</span></td>
-                <td><span class="delta neutral">0</span></td>
               </tr>              <tr>
                 <td>6</td>
                 <td class="member-name">Mina Chen</td>
                 <td>159.60</td>
-                <td>3.59</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>7</td>
                 <td class="member-name">Angel Liu</td>
                 <td>144.99</td>
-                <td>31.71</td>
-                <td>33.37</td>
-                <td><span class="delta up">+5.2%</span></td>
-                <td><span class="delta up">+1</span></td>
               </tr>              <tr>
                 <td>8</td>
                 <td class="member-name">清揚 鄭</td>
                 <td>137.49</td>
-                <td>36.93</td>
-                <td>20.39</td>
-                <td><span class="delta down">-44.8%</span></td>
-                <td><span class="delta down">-2</span></td>
               </tr>              <tr>
                 <td>9</td>
                 <td class="member-name">Rick Hu</td>
                 <td>104.05</td>
-                <td>0.00</td>
-                <td>12.07</td>
-                <td><span class="delta up">New</span></td>
-                <td><span class="delta up">+20</span></td>
               </tr>              <tr>
                 <td>10</td>
                 <td class="member-name">Raymond Chang</td>
                 <td>98.31</td>
-                <td>31.64</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>11</td>
                 <td class="member-name">志中 王</td>
                 <td>92.05</td>
-                <td>22.77</td>
-                <td>11.16</td>
-                <td><span class="delta down">-51.0%</span></td>
-                <td><span class="delta down">-2</span></td>
               </tr>              <tr>
                 <td>12</td>
                 <td class="member-name">Enos Chen</td>
                 <td>89.03</td>
-                <td>31.11</td>
-                <td>7.32</td>
-                <td><span class="delta down">-76.5%</span></td>
-                <td><span class="delta down">-6</span></td>
               </tr>              <tr>
                 <td>13</td>
                 <td class="member-name">Chen Hong-Chou</td>
                 <td>73.25</td>
-                <td>14.96</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>14</td>
                 <td class="member-name">Grace Chen</td>
                 <td>65.47</td>
-                <td>15.54</td>
-                <td>5.13</td>
-                <td><span class="delta down">-67.0%</span></td>
-                <td><span class="delta down">-3</span></td>
               </tr>              <tr>
                 <td>15</td>
                 <td class="member-name">王 老</td>
                 <td>65.08</td>
-                <td>13.97</td>
-                <td>0.83</td>
-                <td><span class="delta down">-94.1%</span></td>
-                <td><span class="delta down">-2</span></td>
               </tr>              <tr>
                 <td>16</td>
                 <td class="member-name">秀婷 莊</td>
                 <td>61.36</td>
-                <td>7.83</td>
-                <td>15.93</td>
-                <td><span class="delta up">+103.4%</span></td>
-                <td><span class="delta up">+7</span></td>
               </tr>              <tr>
                 <td>17</td>
                 <td class="member-name">Luke Huang</td>
                 <td>57.18</td>
-                <td>28.59</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>18</td>
                 <td class="member-name">Billy Chou</td>
                 <td>56.96</td>
-                <td>0.00</td>
-                <td>0.00</td>
-                <td><span class="delta neutral">0</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>19</td>
                 <td class="member-name">Keven Cheng</td>
                 <td>56.72</td>
-                <td>17.00</td>
-                <td>17.00</td>
-                <td><span class="delta up">+0.0%</span></td>
-                <td><span class="delta up">+3</span></td>
               </tr>              <tr>
                 <td>20</td>
                 <td class="member-name">Ted Hung</td>
                 <td>45.93</td>
-                <td>2.95</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>21</td>
                 <td class="member-name">Maggie Chen</td>
                 <td>36.71</td>
-                <td>4.55</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>22</td>
                 <td class="member-name">琦棋 張</td>
                 <td>35.74</td>
-                <td>0.01</td>
-                <td>0.38</td>
-                <td><span class="delta up">+3700.0%</span></td>
-                <td><span class="delta up">+10</span></td>
               </tr>              <tr>
                 <td>23</td>
                 <td class="member-name">千翊 蔡</td>
                 <td>25.21</td>
-                <td>12.85</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>24</td>
                 <td class="member-name">Yi-Fu Shao</td>
                 <td>22.92</td>
-                <td>0.73</td>
-                <td>8.34</td>
-                <td><span class="delta up">+1042.5%</span></td>
-                <td><span class="delta up">+9</span></td>
               </tr>              <tr>
                 <td>25</td>
                 <td class="member-name">Cecilia Siao</td>
                 <td>9.93</td>
-                <td>1.69</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>26</td>
                 <td class="member-name">翊心 曾</td>
                 <td>8.52</td>
-                <td>0.00</td>
-                <td>0.00</td>
-                <td><span class="delta neutral">0</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>27</td>
                 <td class="member-name">Chunju Shen</td>
                 <td>6.04</td>
-                <td>0.00</td>
-                <td>0.00</td>
-                <td><span class="delta neutral">0</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>28</td>
                 <td class="member-name">Tommy Chang</td>
                 <td>5.49</td>
-                <td>0.00</td>
-                <td>0.00</td>
-                <td><span class="delta neutral">0</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>29</td>
                 <td class="member-name">Weng Po Chun</td>
                 <td>5.11</td>
-                <td>0.00</td>
-                <td>0.00</td>
-                <td><span class="delta neutral">0</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>30</td>
                 <td class="member-name">Jason Ho</td>
                 <td>3.35</td>
-                <td>0.01</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>31</td>
                 <td class="member-name">怡君 劉</td>
                 <td>2.35</td>
-                <td>0.09</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>32</td>
                 <td class="member-name">Elies Chen</td>
                 <td>1.37</td>
-                <td>1.36</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>33</td>
                 <td class="member-name">怡靜 徐</td>
                 <td>1.23</td>
-                <td>0.00</td>
-                <td>0.00</td>
-                <td><span class="delta neutral">0</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>34</td>
                 <td class="member-name">Dean Lin</td>
                 <td>0.98</td>
-                <td>0.00</td>
-                <td>0.00</td>
-                <td><span class="delta neutral">0</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>35</td>
                 <td class="member-name">Emily Lin</td>
                 <td>0.75</td>
-                <td>0.12</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>              <tr>
                 <td>36</td>
                 <td class="member-name">嘉峰 李</td>
                 <td>0.50</td>
-                <td>0.04</td>
-                <td>0.00</td>
-                <td><span class="delta down">-100.0%</span></td>
-                <td><span class="delta neutral">未上榜</span></td>
               </tr>
           </tbody>
         </table>
